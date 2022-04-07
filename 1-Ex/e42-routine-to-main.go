@@ -13,4 +13,4 @@ func gor(ch chan int) {
 	ch <- 5
 }
 
-//https://play.golang.org/p/niWWl7qdeSB
+//https://go.dev/play/p/niWWl7qdeSB

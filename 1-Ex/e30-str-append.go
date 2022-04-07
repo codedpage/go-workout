@@ -13,3 +13,6 @@ func main() {
 	Println(d)
 
 }
+
+
+//https://go.dev/play/p/4JqXSirR6Nt

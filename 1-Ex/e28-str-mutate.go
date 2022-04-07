@@ -24,3 +24,5 @@ func main() {
 	h := "hello"
 	fmt.Println(mutate([]rune(h)))
 }
+
+//https://go.dev/play/p/7Yc-ucevVsU

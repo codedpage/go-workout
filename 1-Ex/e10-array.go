@@ -41,3 +41,5 @@ func arrPrint(a [3]int) {
 	}
 
 }
+
+//https://go.dev/play/p/XHe44bkcVIl

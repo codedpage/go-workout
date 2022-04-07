@@ -13,4 +13,5 @@ func main() {
 	fmt.Println(c1, "==", <-c1)
 
 }
-//https://play.golang.org/p/v2dIClta1KD
+
+//https://go.dev/play/p/pRUHkfcY_rJ

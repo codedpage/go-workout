@@ -24,24 +24,26 @@ Integer flags accept 1234, 0664, 0x1234 and may be negative. Boolean flags may b
 func main() {
 
 	//case-1 : -word india -num 50 -fork=true  // --word india --num 50 --fork=true
-    wordPtr := flag.String("word", "foo", "a string")
-    numPtr := flag.Int("num", 10, "an int")
-    boolPtr := flag.Bool("fork", false, "a bool")
+	wordPtr := flag.String("word", "foo", "a string")
+	numPtr := flag.Int("num", 10, "an int")
+	boolPtr := flag.Bool("fork", false, "a bool")
 
 	//case-2 : -svar delhi -ivar 100
-    var strVar string
-    flag.StringVar(&strVar, "svar", "bar", "a string var")
+	var strVar string
+	flag.StringVar(&strVar, "svar", "bar", "a string var")
 
-	var intVar int64 
+	var intVar int64
 	flag.Int64Var(&intVar, "ivar", 20, "a string var")
 
-    flag.Parse()
+	flag.Parse()
 
-    fmt.Println("word:", *wordPtr)
-    fmt.Println("num:", *numPtr)
-    fmt.Println("fork:", *boolPtr)
+	fmt.Println("word:", *wordPtr)
+	fmt.Println("num:", *numPtr)
+	fmt.Println("fork:", *boolPtr)
 
-    fmt.Println("svar:", strVar)
+	fmt.Println("svar:", strVar)
 	fmt.Println("ivar:", intVar)
-    fmt.Println("tail:", flag.Args())
+	fmt.Println("tail:", flag.Args())
 }
+
+//https://go.dev/play/p/0jlEcJPxA95

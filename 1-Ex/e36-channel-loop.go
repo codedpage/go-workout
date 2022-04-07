@@ -24,4 +24,4 @@ func hello(i int, done chan int) {
 	done <- i
 }
 
-//https://play.golang.org/p/iixdlWCNfSW
+//https://go.dev/play/p/GBzlRbM6Plf

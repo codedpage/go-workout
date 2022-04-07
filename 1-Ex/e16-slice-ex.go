@@ -39,3 +39,5 @@ func main() {
 	fmt.Println(len(x9), cap(x9)) //5 5
 
 }
+
+//https://go.dev/play/p/rPzZli4RsuP

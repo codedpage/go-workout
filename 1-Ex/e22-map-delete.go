@@ -31,3 +31,5 @@ func main() {
 	}
 
 }
+
+//https://go.dev/play/p/Hm3WtLEr15z

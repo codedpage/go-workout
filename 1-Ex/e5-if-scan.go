@@ -17,3 +17,5 @@ func main() {
 		fmt.Println("Odd")
 	}
 }
+
+//https://go.dev/play/p/OsIhos6wQwR

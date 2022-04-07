@@ -31,4 +31,4 @@ func process(i int, wg *sync.WaitGroup) {
 	wg.Done()
 }
 
-//https://play.golang.org/p/8tN0ho-Agyk
+//https://go.dev/play/p/8mk8fdpYwLI

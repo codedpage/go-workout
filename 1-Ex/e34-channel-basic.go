@@ -8,4 +8,4 @@ func main() {
 	fmt.Printf("%T %v\n", a, a)
 }
 
-//https://play.golang.org/p/UYDTZ03yTVS
+//https://go.dev/play/p/6qpQmdTeQ3c

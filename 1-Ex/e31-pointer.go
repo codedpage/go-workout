@@ -16,3 +16,5 @@ func main() {
 	Println("address of b = ", b)
 	Println("a = ", *b)
 }
+
+//https://go.dev/play/p/yQk88o3wAL6

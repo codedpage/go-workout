@@ -12,3 +12,5 @@ func main() {
 	s := "aa" + " " + "bb"
 	fmt.Println(s)
 }
+
+//https://go.dev/play/p/INZt0W6wx2z

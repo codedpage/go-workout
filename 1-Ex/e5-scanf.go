@@ -18,3 +18,5 @@ func main() {
 		fmt.Println("Roll =", n, "\nName = ", name, "\n+++")
 	}
 }
+
+//https://go.dev/play/p/OmN_iT__FbJ

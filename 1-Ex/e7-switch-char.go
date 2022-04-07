@@ -18,3 +18,5 @@ func main() {
 	}
 
 }
+
+//https://go.dev/play/p/5ptKsyFlj7i

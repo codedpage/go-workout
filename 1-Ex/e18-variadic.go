@@ -63,3 +63,5 @@ func show2(s1 ...string) {
 	s1 = append(s1, "play", "game", "over")
 	Println(s1, len(s1), cap(s1))
 }
+
+//https://go.dev/play/p/xVNmvWEudMM

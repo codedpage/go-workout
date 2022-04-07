@@ -21,3 +21,4 @@ func main() {
 	e = append(e, s...)
 	Println(e)
 }
+//https://go.dev/play/p/fbYX1tNb73r

@@ -43,3 +43,5 @@ func main() {
 
 	fmt.Println(c)
 }
+
+//https://go.dev/play/p/GW7dC61qYaJ

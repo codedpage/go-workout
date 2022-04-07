@@ -12,3 +12,5 @@ func main() {
 		Printf("%c --- %x \n", s[i], s[i])
 	}
 }
+
+//https://go.dev/play/p/mbVvIH_Ziik

@@ -24,3 +24,4 @@ func main() {
 	fmt.Printf("%T %v \n", c, c)
 
 }
+//https://go.dev/play/p/XrUkwX-coyi

@@ -10,3 +10,5 @@ func main() {
 		Printf("Index %d, Char %c, Hex %x \n", i, v, v) //i-int v-rune
 	}
 }
+
+//https://go.dev/play/p/omdvOYGHRtY

@@ -22,4 +22,4 @@ func hello(done chan bool) {
 	done <- true
 }
 
-//https://play.golang.org/p/MDSGQEYO1gE
+//https://go.dev/play/p/RclzEIVyMeP

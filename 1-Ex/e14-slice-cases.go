@@ -43,3 +43,5 @@ func main() {
 	Println("Length :", len(b), b, m-n)     //3
 	Println("Capacity :", cap(b), len(a)-n) //4
 }
+
+//https://go.dev/play/p/95jUeWQC-Sb

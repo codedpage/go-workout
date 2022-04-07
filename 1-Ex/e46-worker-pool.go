@@ -33,4 +33,4 @@ func main() {
 	}
 }
 
-//https://play.golang.org/p/8tN0ho-Agyk
+//https://go.dev/play/p/bhFfmxGK-I6

@@ -30,4 +30,4 @@ func hello(i int, done chan int) {
 	done <- i
 }
 
-//https://play.golang.org/p/amsY7UfbRjO
+//https://go.dev/play/p/jg957EaiwzP

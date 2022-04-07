@@ -33,3 +33,5 @@ func types() {
 	int32Slice := []int32("Welcome")
 	Println(int32Slice)
 }
+
+//https://go.dev/play/p/qMtgu5awQ-m

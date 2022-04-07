@@ -8,3 +8,5 @@ step1:
 
 	goto step1
 }
+
+//https://go.dev/play/p/QP84K-4xWGH

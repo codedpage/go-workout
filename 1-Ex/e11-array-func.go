@@ -26,3 +26,5 @@ func slicePrint(a []string) {
 		Printf("%d ==== %s\n", k, v)
 	}
 }
+
+//https://go.dev/play/p/C91zgXy3mNg

@@ -12,16 +12,23 @@ func infPrint(b [4]interface{}) {
 	for k, v := range b {
 
 		switch v.(type) {
-		case string: fmt.Println(k, "=====", v.(string))
+		case string:
+			fmt.Println(k, "=====", v.(string))
 
-		case int: fmt.Println(k, "=====", v.(int))
+		case int:
+			fmt.Println(k, "=====", v.(int))
 
-		case float64: fmt.Println(k, "=====", v.(float64))
+		case float64:
+			fmt.Println(k, "=====", v.(float64))
 
-		case bool: fmt.Println(k, "=====", v.(bool))
+		case bool:
+			fmt.Println(k, "=====", v.(bool))
 
-		case nil: fmt.Println(k, "=====", nil)
+		case nil:
+			fmt.Println(k, "=====", nil)
 
 		}
 	}
 }
+
+//https://go.dev/play/p/xpdp3OQWVex

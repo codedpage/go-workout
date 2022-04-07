@@ -24,3 +24,5 @@ func main() {
 	}
 	//fmt.Println(counts)
 }
+
+//https://go.dev/play/p/vmv6LK2L8xo

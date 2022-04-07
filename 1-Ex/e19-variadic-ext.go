@@ -62,3 +62,5 @@ func variadic_string2() {
 	change2(welcome...)
 	fmt.Println(welcome)
 }
+
+//https://go.dev/play/p/olVWiGa8Dgf

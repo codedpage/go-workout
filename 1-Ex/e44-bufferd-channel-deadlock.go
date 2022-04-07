@@ -12,4 +12,4 @@ func main() {
 
 }
 
-//https://play.golang.org/p/Qw8lLJilXLK
+//https://go.dev/play/p/Qw8lLJilXLK

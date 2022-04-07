@@ -26,4 +26,4 @@ func gor(ch chan int) {
 	fmt.Println(<-ch)
 }
 
-//https://play.golang.org/p/K7EnkToJFkF
+//https://go.dev/play/p/7vUGrNPxgZJ

@@ -12,7 +12,7 @@ func main() {
 	switch reminder {
 
 	case 0:
-		fmt.Println("Reminde : 0")
+		fmt.Println("Reminder : 0")
 
 	case 1:
 		fmt.Println("Reminder: 1")
@@ -28,3 +28,5 @@ func main() {
 		fmt.Println("default")
 	}
 }
+
+//https://go.dev/play/p/aSqq6tFFewg

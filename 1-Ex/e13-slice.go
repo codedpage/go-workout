@@ -26,3 +26,5 @@ func main() {
 	Println(e)
 
 }
+
+//https://go.dev/play/p/VhHDUPabSKB

@@ -8,4 +8,4 @@ func main() {
 	fmt.Println(<-c)
 }
 
-//https://play.golang.org/p/rxi9mcsiCdx
+//https://go.dev/play/p/lycvGjR2DZp

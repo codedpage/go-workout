@@ -14,3 +14,5 @@ func main() {
 
 	fmt.Printf("%T", os.Args)
 }
+
+//https://go.dev/play/p/eqA81G3u0v-

@@ -12,3 +12,5 @@ func main() {
 		Println()
 	}
 }
+
+//https://go.dev/play/p/t0ExY-khV5c

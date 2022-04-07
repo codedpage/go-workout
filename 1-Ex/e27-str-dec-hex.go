@@ -41,3 +41,5 @@ func runes() { //
 	str := string(runeSlice)
 	fmt.Println(str)
 }
+
+//https://go.dev/play/p/5lZ3SMKR0Og

@@ -27,3 +27,5 @@ func main() {
 		Println("c =", c)
 	}()
 }
+
+//https://go.dev/play/p/WHNU9EipgWt

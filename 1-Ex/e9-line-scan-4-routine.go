@@ -21,3 +21,5 @@ func main() {
 func sum(i int, c chan int) {
 	c <- i + 10
 }
+
+//https://go.dev/play/p/9TcPzPcO-ss

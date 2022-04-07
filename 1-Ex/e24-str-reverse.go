@@ -60,3 +60,5 @@ func reverse3() {
 	}
 	Println(s)
 }
+
+//https://go.dev/play/p/Yu2v_8NPmDg

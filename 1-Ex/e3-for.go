@@ -11,7 +11,6 @@ func main() {
 	}
 	fmt.Println(sum)
 
-
 	/////////////////////////////
 	for i := 1; i <= 10; i++ {
 		for j := 1; j <= i; j++ {
@@ -20,3 +19,5 @@ func main() {
 		fmt.Println()
 	}
 }
+
+//https://go.dev/play/p/ZYqCMiToDAL

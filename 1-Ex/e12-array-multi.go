@@ -18,3 +18,5 @@ func arrPrint(a [3][2]string) {
 		fmt.Println()
 	}
 }
+
+//https://go.dev/play/p/JjKshuCp4kW

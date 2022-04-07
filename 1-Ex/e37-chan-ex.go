@@ -27,4 +27,4 @@ func product(n int, c2 chan int) {
 	c2 <- n * 10
 }
 
-//https://play.golang.org/p/VwBJAOnXCOT
+//https://go.dev/play/p/VwBJAOnXCOT
