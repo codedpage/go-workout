@@ -16,3 +16,5 @@ func main() {
 	sum := n1.add(n2)
 	fmt.Println(sum)
 }
+
+//https://go.dev/play/p/4rZtTXBBs-N

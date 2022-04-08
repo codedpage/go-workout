@@ -19,3 +19,5 @@ func main() {
 		fmt.Println("not euqal")
 	}
 }
+
+//https://go.dev/play/p/tv8vgPFfLUz

@@ -32,3 +32,5 @@ func main() {
 	fmt.Println(c) //0x4a60c0
 	c()            //aa aaa 2000
 }
+
+//https://go.dev/play/p/ElqUa_arKA8

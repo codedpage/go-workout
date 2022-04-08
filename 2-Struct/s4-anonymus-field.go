@@ -19,3 +19,4 @@ func main() {
 	fmt.Println((e2).string, (e2).int)
 	fmt.Println(e2.string, e2.int)
 }
+//https://go.dev/play/p/FT4EAW0pJxy

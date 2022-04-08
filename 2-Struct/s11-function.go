@@ -18,10 +18,10 @@ func main() {
 	p := &r
 
 	//v-v : allowed
-	area(r)  //area(*p)
+	area(r) //area(*p)
 
 	//r-r : allowed
-	areap(p)  //area(&r)
+	areap(p) //area(&r)
 
 	//r-v : not allowed
 	//area(p) - X - not allowed
@@ -30,3 +30,5 @@ func main() {
 	//areap(r)
 
 }
+
+//https://go.dev/play/p/cWBzCPt_l-1

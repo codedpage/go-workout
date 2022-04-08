@@ -29,3 +29,5 @@ func main() {
 	fmt.Println(r.Area(), r.l, r.w)
 	fmt.Println(c.Area())
 }
+
+//https://go.dev/play/p/VoaR_lphfiy

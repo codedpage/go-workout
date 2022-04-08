@@ -24,9 +24,11 @@ func main() {
 	p.areap()
 
 	//r-v :  allowed
-	p.area() 
+	p.area()
 
 	//v-r :  allowed
 	r.areap()
 
 }
+
+//https://go.dev/play/p/eLfXpmnvnBd

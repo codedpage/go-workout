@@ -23,3 +23,5 @@ func main() {
 	}
 	fmt.Println(e2)
 }
+
+//https://go.dev/play/p/1zVItovWKN7

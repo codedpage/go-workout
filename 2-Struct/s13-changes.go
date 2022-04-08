@@ -52,3 +52,5 @@ func main() {
 	fmt.Println(v)
 	fmt.Println("vr---pc \n")
 }
+
+//https://go.dev/play/p/920r3fAohvl

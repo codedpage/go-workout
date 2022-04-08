@@ -34,3 +34,5 @@ func main() {
 		fmt.Println(e1[i].fn, e1[i].age)
 	}
 }
+
+//https://go.dev/play/p/z0LV6eRbZno

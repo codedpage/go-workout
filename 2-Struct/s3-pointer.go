@@ -51,3 +51,5 @@ func main() {
 	fmt.Println(e41)
 	fmt.Println((*e41)[2].ln)
 }
+
+//https://go.dev/play/p/CYnLTpWyNAO
