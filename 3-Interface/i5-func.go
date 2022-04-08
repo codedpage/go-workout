@@ -47,3 +47,5 @@ func main() {
 	p := Person{"aa", 20}
 	findType(p)
 }
+
+//https://go.dev/play/p/FpwrAO7gJTD

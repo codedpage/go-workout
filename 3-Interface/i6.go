@@ -25,3 +25,5 @@ func main() {
 	Describe(t)
 
 }
+
+//https://go.dev/play/p/vKJ4QFtOmUQ

@@ -15,3 +15,5 @@ func main() {
 	p := Person{UserName: "Astaxie"}
 	t.Execute(os.Stdout, p)
 }
+
+//https://go.dev/play/p/78NOo7QMPYG

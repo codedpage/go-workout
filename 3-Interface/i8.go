@@ -41,3 +41,5 @@ func main() {
 	d2 = &a //allowed
 	d2.Desc()
 }
+
+//https://go.dev/play/p/00MCsxfnJKZ

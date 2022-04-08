@@ -55,3 +55,5 @@ func main() {
 		Friends: []*Friend{&f1, &f2}}
 	t.Execute(os.Stdout, p)
 }
+
+//https://go.dev/play/p/hBK6j-n-URz

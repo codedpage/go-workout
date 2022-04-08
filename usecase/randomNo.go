@@ -13,3 +13,5 @@ func main() {
 	randNo := rand.Intn(max-min+1) + min
 	fmt.Println(randNo)
 }
+
+//https://go.dev/play/p/TYHfzjJzVPu

@@ -20,7 +20,6 @@ func main() {
 		panic(err)
 	}
 	fmt.Println(string(data))
-
-	////////////
-
 }
+
+//https://go.dev/play/p/ZUy7CcbhybW

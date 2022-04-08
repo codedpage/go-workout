@@ -40,3 +40,5 @@ func getMap(m map[interface{}]interface{}) {
 	fmt.Println(vs)
 
 }
+
+//https://go.dev/play/p/AHq_r-IcMYz

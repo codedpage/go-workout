@@ -34,3 +34,5 @@ func assert(i interface{}) {
 	v, ok := i.(int)
 	fmt.Println(v, ok)
 }
+
+//https://go.dev/play/p/j0sGz_DqTMQ

@@ -105,3 +105,5 @@ func basic() {
 	//num, err = o.Delete(&u)
 	//fmt.Printf("NUM: %d, ERR: %v\n", num, err)
 }
+
+//https://go.dev/play/p/8QKp7zeLNXu

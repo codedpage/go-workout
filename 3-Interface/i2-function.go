@@ -43,3 +43,5 @@ func main() {
 	emp := []salaryCalculate{p1, p2, p3}
 	totalExp(emp)
 }
+
+//https://go.dev/play/p/r_DpKDmEHv-

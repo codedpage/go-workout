@@ -44,3 +44,5 @@ func main() {
 	fmt.Println(string(id))
 
 }
+
+//https://go.dev/play/p/8JiWpys6ROu

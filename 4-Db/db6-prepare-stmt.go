@@ -101,3 +101,5 @@ func main() {
 	defer db.Close()
 
 }
+
+//https://go.dev/play/p/wINQrUKBSox

@@ -42,3 +42,5 @@ func main() {
 
 	fmt.Printf("The statement affected %d rows\n", affectedRows)
 }
+
+//https://go.dev/play/p/0W-Je0DNPxj

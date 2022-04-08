@@ -33,3 +33,5 @@ func main() {
 
 	defer db.Close()
 }
+
+//https://go.dev/play/p/4xPPaaSwLHh

@@ -53,3 +53,5 @@ func main() {
 	}
 
 }
+
+//https://go.dev/play/p/XLYtV13L_WS

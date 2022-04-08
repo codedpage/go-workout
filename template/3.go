@@ -18,3 +18,4 @@ func main() {
 	tIfElse = template.Must(tIfElse.Parse("if-else demo: {{if `anything`}} if part {{else}} else part.{{end}}\n"))
 	tIfElse.Execute(os.Stdout, nil)
 }
+//https://go.dev/play/p/qgZePSY126g

@@ -55,3 +55,6 @@ func main() {
 	}
 
 }
+
+
+//https://go.dev/play/p/bqp22tY0N6F

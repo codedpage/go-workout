@@ -26,3 +26,5 @@ func main() {
 	v = a
 	fmt.Println(v.FindVowels())
 }
+
+//https://go.dev/play/p/mGCrSS4Euen

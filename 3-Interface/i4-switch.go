@@ -26,3 +26,5 @@ func main() {
 	findType(10)
 
 }
+
+//https://go.dev/play/p/VYdQwMmRP9C

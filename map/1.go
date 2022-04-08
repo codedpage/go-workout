@@ -42,3 +42,5 @@ func main() {
 	fmt.Println("PAIRS SLICE ", pairs)
 	fmt.Println("FLAT SLICE  ", flat)
 }
+
+//https://go.dev/play/p/WBplK27FdVZ

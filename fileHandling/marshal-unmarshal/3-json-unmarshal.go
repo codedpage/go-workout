@@ -56,3 +56,5 @@ func main() {
 	fmt.Println(d)
 
 }
+
+//https://go.dev/play/p/S-EocMIbiqI

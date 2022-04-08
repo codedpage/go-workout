@@ -148,3 +148,4 @@ func main4() {
 		fmt.Printf("%d \n", *p.(*uint64))
 	}
 }
+//https://go.dev/play/p/pzQpwn6t9Ol

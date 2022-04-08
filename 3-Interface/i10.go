@@ -39,3 +39,5 @@ func main() {
 	eo.DisplaySalary()
 	Println(eo.CalculateLeavesLeft())
 }
+
+//https://go.dev/play/p/uFaxdvJop1Q

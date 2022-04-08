@@ -17,3 +17,6 @@ func main() {
 	tErr := template.New("check parse error with Must")
 	template.Must(tErr.Parse(" some static text {{ .Name }"))
 }
+
+
+//https://go.dev/play/p/oibTKAKKg0g

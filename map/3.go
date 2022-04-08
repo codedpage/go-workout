@@ -40,3 +40,5 @@ func getMap(m map[int]string) {
 	fmt.Println(vs)
 
 }
+
+//https://go.dev/play/p/c7mTHKW5pgl

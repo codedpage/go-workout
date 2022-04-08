@@ -36,3 +36,5 @@ func main() {
 	var l LeaveCalculator = e
 	Println(l.CalculateLeavesLeft())
 }
+
+//https://go.dev/play/p/iAlmi67wMyi

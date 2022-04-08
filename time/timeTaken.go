@@ -14,3 +14,5 @@ func main() {
 	t := time.Now()
 	log.Print("Time Taken : ", time.Since(t))
 }
+
+//https://go.dev/play/p/hWu8KuW27ge

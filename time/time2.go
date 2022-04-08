@@ -8,39 +8,39 @@ import (
 
 func main() {
 
-/*
-    dt := time.Now()
+	/*
+	       dt := time.Now()
 
-	layout := "02/01/2006 15:04:05"
-	dt, _ := time.Parse(layout, "28/07/2020 19:54:05") //time
-	fmt.Printf("s1 == %v | %T", dt, dt)                //s1 == 2020-05-31 23:59:59 +0530 IST | time.Time   
+	   	layout := "02/01/2006 15:04:05"
+	   	dt, _ := time.Parse(layout, "28/07/2020 19:54:05") //time
+	   	fmt.Printf("s1 == %v | %T", dt, dt)                //s1 == 2020-05-31 23:59:59 +0530 IST | time.Time
 
-	i, _ := strconv.ParseInt("1590949799", 10, 64)
-	dt := time.Unix(i, 0)                              //time
-	fmt.Printf("s1 == %v | %T", dt, dt)                //s1 == 2020-05-31 23:59:59 +0530 IST | time.Time 
-	............................................................
-	fmt.Println()
+	   	i, _ := strconv.ParseInt("1590949799", 10, 64)
+	   	dt := time.Unix(i, 0)                              //time
+	   	fmt.Printf("s1 == %v | %T", dt, dt)                //s1 == 2020-05-31 23:59:59 +0530 IST | time.Time
+	   	............................................................
+	   	fmt.Println()
 
-	ts := dt.Unix()
-	fmt.Println("timestamp(sec)", ts)                  //1590949799
+	   	ts := dt.Unix()
+	   	fmt.Println("timestamp(sec)", ts)                  //1590949799
 
-	tss := dt.UnixNano() / 1000000
-	fmt.Println("timestamp(millisec)", tss)           //1590949799000  
+	   	tss := dt.UnixNano() / 1000000
+	   	fmt.Println("timestamp(millisec)", tss)           //1590949799000
 
-	timeString := time.Unix(ts, 0)
-	fmt.Println("time String:", timeString)            //2020-05-31 23:59:59 +0530 IST
+	   	timeString := time.Unix(ts, 0)
+	   	fmt.Println("time String:", timeString)            //2020-05-31 23:59:59 +0530 IST
 
-	dateString := dt.Format("02012006")
-	fmt.Println("date String: ", dateString)           //31052020
-	
-	
-*/	
+	   	dateString := dt.Format("02012006")
+	   	fmt.Println("date String: ", dateString)           //31052020
+
+
+	*/
 	//ctime
- 	ts :=  time.Now().UnixNano() / 1000000
-	fmt.Printf("\ntimestamp (millisecond) = %d", ts) //1600922817509
-	
+	ts1 := time.Now().UnixNano() / 1000000
+	fmt.Printf("\ntimestamp (millisecond) = %d", ts1) //1600922817509
+
 	//0
- 	tnow := time.Now() //2020-09-08 12:19:24.6150492 +0530 IST m=+0.006501901
+	tnow := time.Now() //2020-09-08 12:19:24.6150492 +0530 IST m=+0.006501901
 	fmt.Println("\ntm3=", tnow)
 	fmt.Printf("s3 == %v | %T", tnow, tnow)
 
@@ -52,8 +52,8 @@ func main() {
 	fmt.Println("----\n")
 
 	//1
-	var ts int64 = 1590949799000
-	i1 := ts / 1000
+	var ts2 int64 = 1590949799000
+	i1 := ts2 / 1000
 	tm1 := time.Unix(i1, 0)
 	fmt.Println("tm1=", tm1)
 	fmt.Printf("s1 == %v | %T", tm1, tm1)
@@ -74,15 +74,15 @@ func main() {
 	fmt.Println("\n----")
 
 	//3
-	tnow := time.Now() //2020-09-08 12:19:24.6150492 +0530 IST m=+0.006501901
-	fmt.Println("\ntm3=", tnow)
-	fmt.Printf("s3 == %v | %T", tnow, tnow)
+	tnow1 := time.Now() //2020-09-08 12:19:24.6150492 +0530 IST m=+0.006501901
+	fmt.Println("\ntm3=", tnow1)
+	fmt.Printf("s3 == %v | %T", tnow1, tnow1)
 
 	ts = tnow.Unix() //1599547764
 	fmt.Printf("\ntimestamp = %d", ts)
 
-	timeString := time.Unix(ts, 0)
-	fmt.Printf("\ntime String: %s\n", timeString)
+	timeString1 := time.Unix(ts, 0)
+	fmt.Printf("\ntime String: %s\n", timeString1)
 	fmt.Println("----\n")
 
 	//4-1
@@ -109,3 +109,5 @@ func main() {
 	fmt.Println("\ntimestamp(millisec)", tss)
 
 }
+
+//https://go.dev/play/p/q1PHLxPU4E6

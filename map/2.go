@@ -25,9 +25,9 @@ func main() {
 	fmt.Println(keys)
 	fmt.Println(values)
 
-	ki := []interface{}{}	//[]int{}
-	vs := []interface{}{}	//[]string{}
-	
+	ki := []interface{}{} //[]int{}
+	vs := []interface{}{} //[]string{}
+
 	for k, v := range m {
 		ki = append(ki, k)
 		vs = append(vs, v)
@@ -37,3 +37,5 @@ func main() {
 	fmt.Println(vs)
 
 }
+
+//https://go.dev/play/p/KxVK0mBvF1J

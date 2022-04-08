@@ -32,3 +32,5 @@ func main() {
 	}
 
 }
+
+//https://go.dev/play/p/ZEQnjPVnvmC

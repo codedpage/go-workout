@@ -10,7 +10,6 @@ var echo = fmt.Print
 var printf = fmt.Printf
 var br = fmt.Println
 
-
 func main() {
 
 	timestamp := "12-05-2020 16:23:36"
@@ -47,3 +46,5 @@ am/pm 	PM   pm
 Timezone 	MST
 Offset 	-0700   -07   -07:00   Z0700   Z07:00
 */
+
+//https://go.dev/play/p/wLlHbW0qkG-

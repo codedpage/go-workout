@@ -74,3 +74,5 @@ func QueryStuff() {
 	fmt.Println(version, ctime)
 
 }
+
+//https://go.dev/play/p/_f9hsD2BqN2

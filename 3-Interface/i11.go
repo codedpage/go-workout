@@ -14,3 +14,5 @@ func main() {
 
 	//d1.Describe() //panic: runtime error: invalid memory address or nil pointer dereference
 }
+
+//https://go.dev/play/p/7yYJw25S3hu

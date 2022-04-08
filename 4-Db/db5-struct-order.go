@@ -55,3 +55,5 @@ func main() {
 	}
 
 }
+
+//https://go.dev/play/p/7GOSarJlude

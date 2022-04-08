@@ -51,3 +51,5 @@ func show(b []interface{}) {
 		fmt.Print(b[i], " ")
 	}
 }
+
+//https://go.dev/play/p/_czNXfY7nMZ

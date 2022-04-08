@@ -52,3 +52,5 @@ func main() {
 
 	fmt.Printf("The last inserted row id: %d\n", lastId)
 }
+
+//https://go.dev/play/p/wGcgrtYwSC7
