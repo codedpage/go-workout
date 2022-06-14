@@ -25,7 +25,7 @@ func init() {
 	orm.RegisterModel(new(Post))
 
 	// set default database
-	orm.RegisterDataBase("default", "mysql", "root:root@2021@tcp(127.0.0.1:3306)/test?charset=utf8", 30)
+	orm.RegisterDataBase("default", "mysql", "root:@tcp(127.0.0.1:3306)/test?charset=utf8", 30)
 
 }
 

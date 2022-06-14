@@ -31,7 +31,6 @@ INSERT INTO `books` (`id`, `name`, `author`, `pages`, `publication_date`, `added
 type BookAll struct {
 	ID              int
 	Name            string
-	Language        int
 	Author          sql.NullString
 	Pages           int
 	PublicationDate sql.NullString
@@ -46,7 +45,7 @@ var db *sql.DB
 
 func init() {
 	//tmpDB, err := sql.Open("postgres", "user=postgres password=postgres dbname=dev sslmode=disable")
-	tmpDB, err := sql.Open("mysql", "root:root@2021@tcp(localhost:3306)/test")
+	tmpDB, err := sql.Open("mysql", "root:@tcp(localhost:3307)/test")
 	logOnErr(err)
 	db = tmpDB
 	//	defer db.Close()
@@ -75,7 +74,7 @@ func main1() {
 
 	for rows.Next() {
 		var book Book
-		err = rows.Scan(&book.ID, &book.Name, &book.Language, &book.Author, &book.Pages, &book.PublicationDate, &book.AddedOn)
+		err = rows.Scan(&book.ID, &book.Name, &book.Author, &book.Pages, &book.PublicationDate, &book.AddedOn)
 		logOnErr(err)
 
 		fmt.Print(book.ID, "====> ")
@@ -148,4 +147,5 @@ func main4() {
 		fmt.Printf("%d \n", *p.(*uint64))
 	}
 }
+
 //https://go.dev/play/p/pzQpwn6t9Ol

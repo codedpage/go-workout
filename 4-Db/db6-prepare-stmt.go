@@ -10,7 +10,6 @@ import (
 type BookSingle struct {
 	ID              int
 	Name            string
-	Language        int
 	Author          sql.NullString
 	Pages           int
 	PublicationDate sql.NullString
@@ -26,7 +25,7 @@ var err error
 
 func init() {
 	//tmpDB, err := sql.Open("postgres", "user=postgres password=postgres dbname=dev sslmode=disable")
-	tmpDB, err := sql.Open("mysql", "root:root@2021@tcp(localhost:3306)/test")
+	tmpDB, err := sql.Open("mysql", "root:@tcp(localhost:3307)/test")
 	logOnErr(err)
 	db = tmpDB
 	//	defer db.Close()
@@ -93,7 +92,7 @@ func main() {
 	stmt, err := db.Prepare(str)
 	logOnErr(err)
 
-	err = stmt.QueryRow(n).Scan(&book.ID, &book.Name, &book.Language, &book.Author, &book.Pages, &book.PublicationDate, &book.AddedOn)
+	err = stmt.QueryRow(n).Scan(&book.ID, &book.Name, &book.Author, &book.Pages, &book.PublicationDate, &book.AddedOn)
 	logOnErr(err)
 	fmt.Println(book)
 

@@ -10,7 +10,6 @@ import (
 type BookSingle struct {
 	ID              int
 	Name            string
-	Language        int
 	Author          sql.NullString //to avoid db NULL, OR => Set default value in field of table.
 	Pages           int
 	PublicationDate sql.NullString //sql.NullTime
@@ -26,7 +25,7 @@ var err error
 
 func init() {
 	//tmpDB, err := sql.Open("postgres", "user=postgres password=postgres dbname=dev sslmode=disable")
-	tmpDB, err := sql.Open("mysql", "root:root@2021@tcp(localhost:3306)/test")
+	tmpDB, err := sql.Open("mysql", "root:@tcp(localhost:3307)/test")
 	logOnErr(err)
 	db = tmpDB
 	//	defer db.Close()
@@ -51,8 +50,8 @@ func main() {
 	//err = db.QueryRow("SELECT * FROM `books` where id = ? ", n).Scan(&book.ID, &book.Name, &book.Author, &book.Pages, &book.PublicationDate, &book.AddedOn)
 
 	//case-2 [ select * == Scan(...), here 6 = 6 ]
-	row := db.QueryRow("SELECT * FROM `books` where id = ? ", n)                                                          //6
-	err = row.Scan(&book.ID, &book.Name, &book.Language, &book.Author, &book.Pages, &book.PublicationDate, &book.AddedOn) //6
+	row := db.QueryRow("SELECT * FROM `books` where id = ? ", n)                                          //6
+	err = row.Scan(&book.ID, &book.Name, &book.Author, &book.Pages, &book.PublicationDate, &book.AddedOn) //6
 
 	logOnErr(err)
 
