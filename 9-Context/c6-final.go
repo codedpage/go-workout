@@ -27,7 +27,7 @@ func doSomethingCool(ctx context.Context) {
 }
 
 func main() {
-	fmt.Println("Go Contex Tutorial")
+	fmt.Println("Go Context Tutorial")
 
 	ctx, cancel := context.WithTimeout(context.Background(), 2*time.Second)
 	defer cancel()
