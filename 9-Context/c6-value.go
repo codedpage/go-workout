@@ -16,7 +16,7 @@ func doSomethingCool(ctx context.Context) {
 }
 
 func main() {
-	fmt.Println("Go Contex Tutorial")
+	fmt.Println("Go Context Tutorial")
 	ctx := context.Background()
 	ctx = enrichContext(ctx)
 	doSomethingCool(ctx)
